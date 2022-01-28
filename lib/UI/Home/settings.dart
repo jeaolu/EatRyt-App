@@ -13,7 +13,7 @@ class _SettingsState extends State<Settings> {
     return Expanded(
       child: Center(
         child: Text(
-          'Settings',
+          'Setting',
           style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
         ),
       ),
