@@ -46,7 +46,7 @@ class _HomeState extends State<Home> {
                         borderRadius: BorderRadius.circular(25)),
                     child: Padding(
                       padding: const EdgeInsets.symmetric(
-                          vertical: 10, horizontal: 15),
+                          vertical: 8, horizontal: 15),
                       child: Row(
                         children: [
                           Icon(
@@ -142,7 +142,7 @@ class _HomeState extends State<Home> {
                   child: Container(
                     decoration: BoxDecoration(
                         color: _index == 3 ? Colors.red : Colors.transparent,
-                        borderRadius: BorderRadius.circular(25)),
+                        borderRadius: BorderRadius.circular(20)),
                     child: Padding(
                       padding: const EdgeInsets.symmetric(
                           vertical: 10, horizontal: 15),
